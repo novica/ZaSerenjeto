@@ -1,0 +1,44 @@
+/*
+
+Проект: За „серењето“ - Хери Г. Франкфурт / On Bullshit - Harry G. Frankfurt
+Автор: Гоце Митевски (http://www.nicer2.com/)
+
+*/
+
+/*Ресет*/
+body{font-family:'Playfair Display', Georgia, serif; color:#111; line-height: 180%}
+p{margin-bottom:1.25em}
+
+/*Хедер*/
+header[role="banner"]{position:relative}
+.korica{width:109%; margin-bottom:5%; background: #000; border:1px solid #111; box-shadow:0 0 30px #333;}
+.naslovi{padding:5%; background: #990000; color:#fff; width:50%; margin-top:30%; margin-left:auto; margin-right: auto; text-align: center}
+.naslovi h1, .naslovi h2{font-weight: 400; text-shadow:0 0 3px #222222}
+.naslovi hr{border:0; outline:0; height:1px; background: #fff; width:85%; margin:0 auto;}
+.naslovi h1{text-transform: uppercase; font-size:160%}
+.naslovi h2{font-size:110%; font-style: oblique}
+
+/*Навигација*/
+.glavno-meni{list-style:none; font-size:120%; margin:0; padding:0}
+.glavno-meni li{margin:5% auto; padding:0}
+nav[role="navigation"]{width:60%; margin-top:30%; margin-bottom:20%; text-align:center; margin-left:auto; margin-right:auto}
+nav[role="navigation"] a{color:#ffffff; text-shadow:0 0 3px #222222; display:block; padding:.5em 1em; background-color:#222}
+nav[role="navigation"] a:hover{background-color: #555; text-decoration: none}
+nav[role="navigation"] .active a{background-color:#990000}
+
+/*Содржина*/
+.glaven-sodrzatel{padding:4% 0}
+.glavna-sodrzina a{text-decoration:underline}
+.glavna-sodrzina p{font-size:115%}
+.glavna-sodrzina sup{font-weight: 700}
+.glavna-sodrzina h1{margin-bottom:1em}
+.indent{margin-left:5%}
+.odt-footnote {font-size:90%; margin-top:1em; margin-bottom:1em}
+.odt-footnote a{font-weight: 700}
+.odt-footnote p{display:inline}
+
+.affix{width:34.5%}
+
+@media (max-width: 767px) {
+    .affix{width:auto; position:inherit}
+}
